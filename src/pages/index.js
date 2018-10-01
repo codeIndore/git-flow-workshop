@@ -5,7 +5,7 @@ import Code from '../components/syntax'
 const IndexPage = () => (
   <div>
     <h1>Hello Developers! &nbsp;<i className="em em-wave"></i></h1>
-    <h3>Welcome to the GitHub Workshop by GDG Indore</h3>
+    <h3>Welcome to this GitHub exercise by codeIndore( )</h3>
     <p>For this exercise you will be contributing to this project with your profile details.
     Once your pull request is merged, your profile will be visible in the <Link to="/submissions/">Submissions </Link>section of this page.
       Excited? <i className="em em-grinning_face_with_star_eyes"></i> Let&apos;s begin!
