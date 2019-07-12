@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import github_logo from '../images/github.svg'
 
 const Header = ({ siteTitle }) => (

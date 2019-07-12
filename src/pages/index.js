@@ -1,8 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Code from '../components/syntax'
+import Layout from '../components/layout'
 
 const IndexPage = () => (
+<Layout>
   <div>
     <h1>Hello Developers! &nbsp;<i className="em em-wave"></i></h1>
     <h3>Welcome to this GitHub exercise by codeIndore( )</h3>
@@ -85,6 +87,7 @@ const IndexPage = () => (
       Wait for a reviewer to review your PR and merge it into master.<br /><br /> Once it has been successfully merged, your profile will be visible in the submissions tab of this website. <i className="em em-trophy"></i>
     </p>
   </div>
+</Layout>
 )
 
 export default IndexPage

@@ -4,12 +4,20 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46",
+    "gatsby": "^2.13.15",
+    "gatsby-plugin-postcss": "^2.1.1",
     "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "react-helmet": "^5.2.0"
+    "gatsby-source-filesystem": "^2.1.4",
+    "gatsby-transformer-remark": "^2.6.3",
+    "history": "^4.9.0",
+    "postcss-browser-reporter": "^0.6.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-reporter": "^6.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^5.0.1"
   },
   "keywords": [
     "gatsby"

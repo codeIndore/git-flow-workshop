@@ -1,8 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 import Card from '../components/userCard'
+import Layout from '../components/layout'
 
 const Submission = ({data}) => (
+<Layout>
   <div className="card-container">
     {
       data.allMarkdownRemark.edges.map(profile => {
@@ -11,6 +13,7 @@ const Submission = ({data}) => (
       })
     }
   </div>
+</Layout>
 )
 
 export default Submission

@@ -5,6 +5,7 @@ module.exports = {
     profile: 'https://github.com/adeen-s'
   },
   plugins: [
+    'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-transformer-remark',
