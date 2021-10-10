@@ -1,4 +1,4 @@
 ---
 username: adeen-s
-fullname: Adeen Shukla
+fullname: Adeen
 ---
